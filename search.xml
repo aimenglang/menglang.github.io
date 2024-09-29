@@ -4,9 +4,59 @@
   
     
     <entry>
+      <title>Docker Hello World</title>
+      <link href="//html/docker-hello-world/"/>
+      <url>//html/docker-hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Docker Hello World<br>Docker 允许你在容器内运行应用程序， 使用 docker run 命令来在容器内运行一个应用程序。</p><p>输出Hello world</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker run ubuntu:15.10 /bin/echo <span class="string">&quot;Hello world&quot;</span></span><br></pre></td></tr></table></figure><p>Hello world</p><p>各个参数解析：</p><p>docker: Docker 的二进制执行文件。</p><p>run: 与前面的 docker 组合来运行一个容器。</p><p>ubuntu:15.10 指定要运行的镜像，Docker 首先从本地主机上查找镜像是否存在，如果不存在，Docker 就会从镜像仓库 Docker Hub 下载公共镜像。</p><p>&#x2F;bin&#x2F;echo “Hello world”: 在启动的容器里执行的命令</p><p>以上命令完整的意思可以解释为：Docker 以 ubuntu15.10 镜像创建一个新容器，然后在容器里执行 bin&#x2F;echo “Hello world”，然后输出结果。</p><p>运行交互式的容器<br>我们通过 docker 的两个参数 -i -t，让 docker 运行的容器实现”对话”的能力：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker run -i -t ubuntu:15.10 /bin/bash</span><br></pre></td></tr></table></figure><p>root@0123ce188bd8:&#x2F;#<br>各个参数解析：</p><p>-t: 在新容器内指定一个伪终端或终端。</p><p>-i: 允许你对容器内的标准输入 (STDIN) 进行交互。</p><p>注意第二行 root@0123ce188bd8:&#x2F;#，此时我们已进入一个 ubuntu15.10 系统的容器</p><p>我们尝试在容器中运行命令 cat &#x2F;proc&#x2F;version和ls分别查看当前系统的版本信息和当前目录下的文件列表</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@0123ce188bd8:/#  <span class="built_in">cat</span> /proc/version</span><br></pre></td></tr></table></figure><p>Linux version 4.4.0-151-generic (buildd@lgw01-amd64-043) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ) #178-Ubuntu SMP Tue Jun 11 08:30:22 UTC 2019</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@0123ce188bd8:/# <span class="built_in">ls</span></span><br></pre></td></tr></table></figure><p>bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@0123ce188bd8:/# </span><br></pre></td></tr></table></figure><p>我们可以通过运行 exit 命令或者使用 CTRL+D 来退出容器。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@0123ce188bd8:/#  <span class="built_in">exit</span></span><br></pre></td></tr></table></figure><p>exit<br>root@root:<del>#<br>注意第三行中 root@root:</del># 表明我们已经退出了当前的容器，返回到当前的主机中。</p><p>启动容器（后台模式）<br>使用以下命令创建一个以进程方式运行的容器</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker run -d ubuntu:15.10 /bin/sh -c <span class="string">&quot;while true; do echo hello world; sleep 1; done&quot;</span></span><br></pre></td></tr></table></figure><p>2b1b7a428627c51ab8810d541d759f072b4fc75487eed05812646b8534a2fe63<br>在输出中，我们没有看到期望的 “hello world”，而是一串长字符</p><p>2b1b7a428627c51ab8810d541d759f072b4fc75487eed05812646b8534a2fe63</p><p>这个长字符串叫做容器 ID，对每个容器来说都是唯一的，我们可以通过容器 ID 来查看对应的容器发生了什么。</p><p>首先，我们需要确认容器有在运行，可以通过 docker ps 来查看：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker ps</span><br></pre></td></tr></table></figure><p>CONTAINER ID        IMAGE                  COMMAND              …<br>5917eac21c36        ubuntu:15.10           “&#x2F;bin&#x2F;sh -c ‘while t…”    …<br>输出详情介绍：</p><p>CONTAINER ID: 容器 ID。</p><p>IMAGE: 使用的镜像。</p><p>COMMAND: 启动容器时运行的命令。</p><p>CREATED: 容器的创建时间。</p><p>STATUS: 容器状态。</p><p>状态有7种：</p><p>created（已创建）<br>restarting（重启中）<br>running 或 Up（运行中）<br>removing（迁移中）<br>paused（暂停）<br>exited（停止）<br>dead（死亡）<br>PORTS: 容器的端口信息和使用的连接类型（tcp\udp）。</p><p>NAMES: 自动分配的容器名称。</p><p>在宿主主机内使用 docker logs 命令，查看容器内的标准输出：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker logs 2b1b7a428627</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker logs amazing_cori</span><br></pre></td></tr></table></figure><p>停止容器<br>我们使用 docker stop 命令来停止容器:</p><p>通过 docker ps 查看，容器已经停止工作:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker ps</span><br></pre></td></tr></table></figure><p>可以看到容器已经不在了。</p><p>也可以用下面的命令来停止:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker stop amazing_cori</span><br></pre></td></tr></table></figure><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> docker </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Docker 安装 MySQL</title>
+      <link href="//html/dockertomysql/"/>
+      <url>//html/dockertomysql/</url>
+      
+        <content type="html"><![CDATA[<p>Docker 安装 MySQL<br>MySQL 是世界上最受欢迎的开源数据库。凭借其可靠性、易用性和性能，MySQL 已成为 Web 应用程序的数据库优先选择。</p><p>1、查看可用的 MySQL 版本<br>访问 MySQL 镜像库地址：<a href="https://hub.docker.com/_/mysql?tab=tags">https://hub.docker.com/_/mysql?tab=tags</a> 。</p><p>可以通过 Sort by 查看其他版本的 MySQL，默认是最新版本 mysql:latest 。</p><p>你也可以在下拉列表中找到其他你想要的版本：</p><p>此外，我们还可以用 docker search mysql 命令来查看可用版本：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker search mysql</span><br></pre></td></tr></table></figure><p>NAME                     DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED<br>mysql                    MySQL is a widely used, open-source relati…   2529      [OK]<br>mysql&#x2F;mysql-server       Optimized MySQL Server Docker images. Crea…   161                  [OK]<br>centurylink&#x2F;mysql        Image containing mysql. Optimized to be li…   45                   [OK]<br>sameersbn&#x2F;mysql                                                          36                   [OK]<br>google&#x2F;mysql             MySQL server for Google Compute Engine          16                   [OK]<br>appcontainers&#x2F;mysql      Centos&#x2F;Debian Based Customizable MySQL Con…   8                    [OK]<br>marvambass&#x2F;mysql         MySQL Server based on Ubuntu 14.04              6                    [OK]<br>drupaldocker&#x2F;mysql       MySQL for Drupal                                2                    [OK]<br>azukiapp&#x2F;mysql           Docker image to run MySQL by Azuki - http:…   2                    [OK]<br>…<br>2、拉取 MySQL 镜像<br>这里我们拉取官方的最新版本的镜像：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker pull mysql:latest</span><br></pre></td></tr></table></figure><p>3、查看本地镜像<br>使用以下命令来查看是否已安装了 mysql：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker images</span><br></pre></td></tr></table></figure><p>在上图中可以看到我们已经安装了最新版本（latest）的 mysql 镜像。</p><p>4、运行容器<br>安装完成后，我们可以使用以下命令来运行 mysql 容器：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql</span><br></pre></td></tr></table></figure><p>参数说明：</p><p>-p 3306:3306 ：映射容器服务的 3306 端口到宿主机的 3306 端口，外部主机可以直接通过 宿主机ip:3306 访问到 MySQL 的服务。<br>MYSQL_ROOT_PASSWORD&#x3D;123456：设置 MySQL 服务 root 用户的密码。</p><p>5、安装成功<br>通过 docker ps 命令查看是否安装成功：</p><p>本机可以通过 root 和密码 123456 访问 MySQL 服务。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> docker </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>测试博文了</title>
-      <link href="//html/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87%E4%BA%86/"/>
-      <url>//html/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87%E4%BA%86/</url>
+      <link href="//html/2/"/>
+      <url>//html/2/</url>
       
         <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style><p>哈哈哈啊哈哈</p>]]></content>
       
@@ -18,8 +68,8 @@
     
     <entry>
       <title>这是一篇新的博文1231</title>
-      <link href="//html/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%871231/"/>
-      <url>//html/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%871231/</url>
+      <link href="//html/5/"/>
+      <url>//html/5/</url>
       
         <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
       
@@ -31,8 +81,8 @@
     
     <entry>
       <title>这是一篇新的博文123</title>
-      <link href="//html/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87123/"/>
-      <url>//html/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87123/</url>
+      <link href="//html/4/"/>
+      <url>//html/4/</url>
       
         <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
       
@@ -44,8 +94,8 @@
     
     <entry>
       <title>这是一篇新的博文</title>
-      <link href="//html/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87-1/"/>
-      <url>//html/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87-1/</url>
+      <link href="//html/1/"/>
+      <url>//html/1/</url>
       
         <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
       
@@ -57,8 +107,8 @@
     
     <entry>
       <title>这是一篇新的博文</title>
-      <link href="//html/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/"/>
-      <url>//html/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%96%B0%E7%9A%84%E5%8D%9A%E6%96%87/</url>
+      <link href="//html/3/"/>
+      <url>//html/3/</url>
       
         <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div>我来看看新闻了。。<style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}<p>.video-container iframe {<br>    position: absolute;<br>    top: 0;<br>    left: 0;<br>    width: 100%;<br>    height: 100%;<br>}<br></style></p>]]></content>
       
