@@ -1,4 +1,4 @@
-var posts=["/html/zdgg/","/html/test/","/html/2/","/html/5/","/html/4/","/html/3/","/html/nginx/","/html/docker-hello-world/","/html/docker-to-mysql/","/html/hello-world/"];function toRandomPost(){
+var posts=["/html/zdgg/","/html/test/","/html/2/","/html/5/","/html/4/","/html/3/","/html/docker-lnmp/","/html/docker-command/","/html/nginx/","/html/docker-hello-world/","/html/docker-to-mysql/","/html/hello-world/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[{"name":"爱上感觉","link":"/","avatar":"/images/logoh.svg","descr":"快速、简单"},{"name":"曾经那些年","link":"/","avatar":"/","descr":"生活明朗，万物可爱","siteshot":"https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg"},{"name":"曾经这些年","link":"/","avatar":"https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg","descr":"生活明朗，万物可爱","siteshot":"https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg","color":"vip","tag":"技术"},{"name":"旧时光","link":"/","avatar":"https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg","descr":"生活明朗，万物可爱","recommend":true}];
     var refreshNum = 1;
