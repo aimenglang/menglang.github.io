@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>爱上感觉</title>
+  
+  
+  <link href="https://www.dmark.us.kg/atom.xml" rel="self"/>
+  
+  <link href="https://www.dmark.us.kg/"/>
+  <updated>2024-09-29T00:12:57.705Z</updated>
+  <id>https://www.dmark.us.kg/</id>
+  
+  <author>
+    <name>青春有你</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试博文了</title>
+    <link href="https://www.dmark.us.kg/html/2/"/>
+    <id>https://www.dmark.us.kg/html/2/</id>
+    <published>2024-09-29T00:11:54.000Z</published>
+    <updated>2024-09-29T00:12:57.705Z</updated>
+    
+    <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style><p>哈哈哈啊哈哈</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;video-container&quot;&gt;
+[up主专用，视频内嵌代码贴在这]
+&lt;/div&gt;
+
+&lt;style&gt;
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top:</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>这是一篇新的博文1231</title>
+    <link href="https://www.dmark.us.kg/html/5/"/>
+    <id>https://www.dmark.us.kg/html/5/</id>
+    <published>2024-09-28T23:51:02.000Z</published>
+    <updated>2024-09-30T03:37:46.235Z</updated>
+    
+    <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;video-container&quot;&gt;
+[up主专用，视频内嵌代码贴在这]
+&lt;/div&gt;
+
+&lt;style&gt;
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top:</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>这是一篇新的博文123</title>
+    <link href="https://www.dmark.us.kg/html/4/"/>
+    <id>https://www.dmark.us.kg/html/4/</id>
+    <published>2024-09-28T23:50:56.000Z</published>
+    <updated>2024-09-30T03:37:37.043Z</updated>
+    
+    <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;video-container&quot;&gt;
+[up主专用，视频内嵌代码贴在这]
+&lt;/div&gt;
+
+&lt;style&gt;
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top:</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>公告</title>
+    <link href="https://www.dmark.us.kg/html/zdgg/"/>
+    <id>https://www.dmark.us.kg/html/zdgg/</id>
+    <published>2024-09-28T23:50:44.000Z</published>
+    <updated>2024-09-30T02:22:58.795Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎大家来到我的世界。。。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;欢迎大家来到我的世界。。。&lt;/p&gt;
+&lt;style&gt;
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio (heig</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>这是一篇新的博文</title>
+    <link href="https://www.dmark.us.kg/html/3/"/>
+    <id>https://www.dmark.us.kg/html/3/</id>
+    <published>2024-09-28T23:45:05.000Z</published>
+    <updated>2024-09-30T03:37:28.720Z</updated>
+    
+    <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div>我来看看新闻了。。<style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}<p>.video-container iframe {<br>    position: absolute;<br>    top: 0;<br>    left: 0;<br>    width: 100%;<br>    height: 100%;<br>}<br></style></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;video-container&quot;&gt;
+[up主专用，视频内嵌代码贴在这]
+&lt;/div&gt;
+我来看看新闻了。。
+&lt;style&gt;
+.video-container {
+    position: relative;
+    width: 100%;
+    pad</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx 安装配置</title>
+    <link href="https://www.dmark.us.kg/html/nginx/"/>
+    <id>https://www.dmark.us.kg/html/nginx/</id>
+    <published>2020-09-30T01:16:03.000Z</published>
+    <updated>2024-09-30T06:38:59.287Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Nginx-安装"><a href="#Nginx-安装" class="headerlink" title="Nginx 安装"></a>Nginx 安装</h2><h3 id="系统平台：CentOS-release-6-6-Final-64位。"><a href="#系统平台：CentOS-release-6-6-Final-64位。" class="headerlink" title="系统平台：CentOS release 6.6 (Final) 64位。"></a>系统平台：CentOS release 6.6 (Final) 64位。</h3><h2 id="一、安装编译工具及库文件"><a href="#一、安装编译工具及库文件" class="headerlink" title="一、安装编译工具及库文件"></a>一、安装编译工具及库文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install make zlib zlib-devel gcc-c++ libtool  openssl openssl-devel</span><br></pre></td></tr></table></figure><h2 id="二、首先要安装-PCRE"><a href="#二、首先要安装-PCRE" class="headerlink" title="二、首先要安装 PCRE"></a>二、首先要安装 PCRE</h2><p>PCRE 作用是让 Nginx 支持 Rewrite 功能。</p><h3 id="1、下载-PCRE-安装包，"><a href="#1、下载-PCRE-安装包，" class="headerlink" title="1、下载 PCRE 安装包，"></a>1、下载 PCRE 安装包，</h3><p>下载地址： <a href="http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz">http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@abc src]# <span class="built_in">cd</span> /usr/local/src/</span><br><span class="line">[root@abc src]# wget http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz</span><br></pre></td></tr></table></figure><h3 id="2、解压安装包"><a href="#2、解压安装包" class="headerlink" title="2、解压安装包:"></a>2、解压安装包:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@abc src]# tar zxvf pcre-8.35.tar.gz</span><br></pre></td></tr></table></figure><h3 id="3、进入安装包目录"><a href="#3、进入安装包目录" class="headerlink" title="3、进入安装包目录"></a>3、进入安装包目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@abc src]# <span class="built_in">cd</span> pcre-8.35</span><br></pre></td></tr></table></figure><h3 id="4、编译安装"><a href="#4、编译安装" class="headerlink" title="4、编译安装"></a>4、编译安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@abc pcre-8.35]# ./configure</span><br><span class="line">[root@abc pcre-8.35]# make &amp;&amp; make install</span><br></pre></td></tr></table></figure><h3 id="5、查看pcre版本"><a href="#5、查看pcre版本" class="headerlink" title="5、查看pcre版本"></a>5、查看pcre版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@abc pcre-8.35]# pcre-config --version</span><br></pre></td></tr></table></figure><h2 id="安装-Nginx"><a href="#安装-Nginx" class="headerlink" title="安装 Nginx"></a>安装 Nginx</h2><h3 id="1、下载-Nginx，下载地址：https-nginx-org-en-download-html"><a href="#1、下载-Nginx，下载地址：https-nginx-org-en-download-html" class="headerlink" title="1、下载 Nginx，下载地址：https://nginx.org/en/download.html"></a>1、下载 Nginx，下载地址：<a href="https://nginx.org/en/download.html">https://nginx.org/en/download.html</a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@abc src]# <span class="built_in">cd</span> /usr/local/src/</span><br><span class="line">[root@abc src]# wget http://nginx.org/download/nginx-1.6.2.tar.gz</span><br></pre></td></tr></table></figure><h3 id="2、解压安装包-1"><a href="#2、解压安装包-1" class="headerlink" title="2、解压安装包"></a>2、解压安装包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@abc src]# tar zxvf nginx-1.6.2.tar.gz</span><br></pre></td></tr></table></figure><h3 id="3、进入安装包目录-1"><a href="#3、进入安装包目录-1" class="headerlink" title="3、进入安装包目录"></a>3、进入安装包目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@abc src]# <span class="built_in">cd</span> nginx-1.6.2</span><br></pre></td></tr></table></figure><p>###4、编译安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@abc nginx-1.6.2]# ./configure --prefix=/usr/local/webserver/nginx --with-http_stub_status_module --with-http_ssl_module --with-pcre=/usr/local/src/pcre-8.35</span><br><span class="line">[root@abc nginx-1.6.2]# make</span><br><span class="line">[root@abc nginx-1.6.2]# make install</span><br></pre></td></tr></table></figure><h3 id="5、查看nginx版本"><a href="#5、查看nginx版本" class="headerlink" title="5、查看nginx版本"></a>5、查看nginx版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@abc nginx-1.6.2]# /usr/local/webserver/nginx/sbin/nginx -v</span><br></pre></td></tr></table></figure><h2 id="到此，nginx安装完成。"><a href="#到此，nginx安装完成。" class="headerlink" title="到此，nginx安装完成。"></a>到此，nginx安装完成。</h2><h2 id="Nginx-配置"><a href="#Nginx-配置" class="headerlink" title="Nginx 配置"></a>Nginx 配置</h2><p>创建 Nginx 运行使用的用户 www：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@abc conf]# /usr/sbin/groupadd www </span><br><span class="line">[root@abc conf]# /usr/sbin/useradd -g www www</span><br></pre></td></tr></table></figure><p>配置nginx.conf ，将&#x2F;usr&#x2F;local&#x2F;webserver&#x2F;nginx&#x2F;conf&#x2F;nginx.conf替换为以下内容</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@abc conf]#  <span class="built_in">cat</span> /usr/local/webserver/nginx/conf/nginx.conf</span><br></pre></td></tr></table></figure><p>user www www;<br>worker_processes 2; #设置值和CPU核心数一致<br>error_log &#x2F;usr&#x2F;local&#x2F;webserver&#x2F;nginx&#x2F;logs&#x2F;nginx_error.log crit; #日志位置和日志级别<br>pid &#x2F;usr&#x2F;local&#x2F;webserver&#x2F;nginx&#x2F;nginx.pid;<br>#Specifies the value for maximum file descriptors that can be opened by this process.<br>worker_rlimit_nofile 65535;<br>events<br>{<br>  use epoll;<br>  worker_connections 65535;<br>}<br>http<br>{<br>  include mime.types;<br>  default_type application&#x2F;octet-stream;<br>  log_format main  ‘$remote_addr - $remote_user [$time_local] “$request” ‘<br>               ‘$status $body_bytes_sent “$http_referer” ‘<br>               ‘“$http_user_agent” $http_x_forwarded_for’;</p><p>#charset gb2312;</p><p>  server_names_hash_bucket_size 128;<br>  client_header_buffer_size 32k;<br>  large_client_header_buffers 4 32k;<br>  client_max_body_size 8m;</p><p>  sendfile on;<br>  tcp_nopush on;<br>  keepalive_timeout 60;<br>  tcp_nodelay on;<br>  fastcgi_connect_timeout 300;<br>  fastcgi_send_timeout 300;<br>  fastcgi_read_timeout 300;<br>  fastcgi_buffer_size 64k;<br>  fastcgi_buffers 4 64k;<br>  fastcgi_busy_buffers_size 128k;<br>  fastcgi_temp_file_write_size 128k;<br>  gzip on;<br>  gzip_min_length 1k;<br>  gzip_buffers 4 16k;<br>  gzip_http_version 1.0;<br>  gzip_comp_level 2;<br>  gzip_types text&#x2F;plain application&#x2F;x-javascript text&#x2F;css application&#x2F;xml;<br>  gzip_vary on;</p><p>  #limit_zone crawler $binary_remote_addr 10m;<br> #下面是server虚拟主机的配置<br> server<br>  {<br>    listen 80;#监听端口<br>    server_name localhost;#域名<br>    index index.html index.htm index.php;<br>    root &#x2F;usr&#x2F;local&#x2F;webserver&#x2F;nginx&#x2F;html;#站点目录<br>      location ~ .*.(php|php5)?$<br>    {<br>      #fastcgi_pass unix:&#x2F;tmp&#x2F;php-cgi.sock;<br>      fastcgi_pass 127.0.0.1:9000;<br>      fastcgi_index index.php;<br>      include fastcgi.conf;<br>    }<br>    location ~ .*.(gif|jpg|jpeg|png|bmp|swf|ico)$<br>    {<br>      expires 30d;</p><h1 id="access-log-off"><a href="#access-log-off" class="headerlink" title="access_log off;"></a>access_log off;</h1><pre><code>&#125;location ~ .*\.(js|css)?$&#123;  expires 15d;</code></pre><h1 id="access-log-off-1"><a href="#access-log-off-1" class="headerlink" title="access_log off;"></a>access_log off;</h1><pre><code>&#125;access_log off;</code></pre><p>  }</p><p>}</p><h2 id="检查配置文件nginx-conf的正确性命令："><a href="#检查配置文件nginx-conf的正确性命令：" class="headerlink" title="检查配置文件nginx.conf的正确性命令："></a>检查配置文件nginx.conf的正确性命令：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@abc conf]# /usr/local/webserver/nginx/sbin/nginx -t</span><br></pre></td></tr></table></figure><h3 id="启动-Nginx"><a href="#启动-Nginx" class="headerlink" title="启动 Nginx"></a>启动 Nginx</h3><p>Nginx 启动命令如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@abc conf]# /usr/local/webserver/nginx/sbin/nginx</span><br></pre></td></tr></table></figure><h3 id="访问站点"><a href="#访问站点" class="headerlink" title="访问站点"></a>访问站点</h3><p>从浏览器访问我们配置的站点ip：</p><h3 id="Nginx-其他命令"><a href="#Nginx-其他命令" class="headerlink" title="Nginx 其他命令"></a>Nginx 其他命令</h3><p>以下包含了 Nginx 常用的几个命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">/usr/local/webserver/nginx/sbin/nginx -s reload            <span class="comment"># 重新载入配置文件</span></span><br><span class="line">/usr/local/webserver/nginx/sbin/nginx -s reopen            <span class="comment"># 重启 Nginx</span></span><br><span class="line">/usr/local/webserver/nginx/sbin/nginx -s stop              <span class="comment"># 停止 Nginx</span></span><br></pre></td></tr></table></figure><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Nginx-安装&quot;&gt;&lt;a href=&quot;#Nginx-安装&quot; class=&quot;headerlink&quot; title=&quot;Nginx 安装&quot;&gt;&lt;/a&gt;Nginx 安装&lt;/h2&gt;&lt;h3 id=&quot;系统平台：CentOS-release-6-6-Final-64位。&quot;&gt;&lt;a hr</summary>
+      
+    
+    
+    
+    <category term="linux" scheme="https://www.dmark.us.kg/categories/linux/"/>
+    
+    <category term="centos" scheme="https://www.dmark.us.kg/categories/linux/centos/"/>
+    
+    
+    <category term="nginx" scheme="https://www.dmark.us.kg/tags/nginx/"/>
+    
+    <category term="centos" scheme="https://www.dmark.us.kg/tags/centos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker Hello World</title>
+    <link href="https://www.dmark.us.kg/html/docker-hello-world/"/>
+    <id>https://www.dmark.us.kg/html/docker-hello-world/</id>
+    <published>2020-09-29T18:43:50.000Z</published>
+    <updated>2024-09-30T06:39:46.789Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Docker-Hello-World"><a href="#Docker-Hello-World" class="headerlink" title="Docker Hello World"></a>Docker Hello World</h2><p>Docker 允许你在容器内运行应用程序， 使用 docker run 命令来在容器内运行一个应用程序。</p><p>输出Hello world</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker run ubuntu:15.10 /bin/echo <span class="string">&quot;Hello world&quot;</span></span><br></pre></td></tr></table></figure><h3 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world"></a>Hello world</h3><p>各个参数解析：</p><p>docker: Docker 的二进制执行文件。</p><p>run: 与前面的 docker 组合来运行一个容器。</p><p>ubuntu:15.10 指定要运行的镜像，Docker 首先从本地主机上查找镜像是否存在，如果不存在，Docker 就会从镜像仓库 Docker Hub 下载公共镜像。</p><p>&#x2F;bin&#x2F;echo “Hello world”: 在启动的容器里执行的命令</p><p>以上命令完整的意思可以解释为：Docker 以 ubuntu15.10 镜像创建一个新容器，然后在容器里执行 bin&#x2F;echo “Hello world”，然后输出结果。</p><h3 id="运行交互式的容器"><a href="#运行交互式的容器" class="headerlink" title="运行交互式的容器"></a>运行交互式的容器</h3><p>我们通过 docker 的两个参数 -i -t，让 docker 运行的容器实现”对话”的能力：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker run -i -t ubuntu:15.10 /bin/bash</span><br></pre></td></tr></table></figure><p>root@0123ce188bd8:&#x2F;#<br>各个参数解析：</p><p>-t: 在新容器内指定一个伪终端或终端。</p><p>-i: 允许你对容器内的标准输入 (STDIN) 进行交互。</p><p>注意第二行 root@0123ce188bd8:&#x2F;#，此时我们已进入一个 ubuntu15.10 系统的容器</p><p>我们尝试在容器中运行命令 cat &#x2F;proc&#x2F;version和ls分别查看当前系统的版本信息和当前目录下的文件列表</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@0123ce188bd8:/#  <span class="built_in">cat</span> /proc/version</span><br></pre></td></tr></table></figure><p>Linux version 4.4.0-151-generic (buildd@lgw01-amd64-043) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ) #178-Ubuntu SMP Tue Jun 11 08:30:22 UTC 2019</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@0123ce188bd8:/# <span class="built_in">ls</span></span><br></pre></td></tr></table></figure><p>bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@0123ce188bd8:/# </span><br></pre></td></tr></table></figure><p>我们可以通过运行 exit 命令或者使用 CTRL+D 来退出容器。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@0123ce188bd8:/#  <span class="built_in">exit</span></span><br></pre></td></tr></table></figure><p>exit<br>root@root:<del>#<br>注意第三行中 root@root:</del># 表明我们已经退出了当前的容器，返回到当前的主机中。</p><h3 id="启动容器（后台模式）"><a href="#启动容器（后台模式）" class="headerlink" title="启动容器（后台模式）"></a>启动容器（后台模式）</h3><p>使用以下命令创建一个以进程方式运行的容器</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker run -d ubuntu:15.10 /bin/sh -c <span class="string">&quot;while true; do echo hello world; sleep 1; done&quot;</span></span><br></pre></td></tr></table></figure><p>2b1b7a428627c51ab8810d541d759f072b4fc75487eed05812646b8534a2fe63<br>在输出中，我们没有看到期望的 “hello world”，而是一串长字符</p><p>2b1b7a428627c51ab8810d541d759f072b4fc75487eed05812646b8534a2fe63</p><p>这个长字符串叫做容器 ID，对每个容器来说都是唯一的，我们可以通过容器 ID 来查看对应的容器发生了什么。</p><p>首先，我们需要确认容器有在运行，可以通过 docker ps 来查看：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker ps</span><br></pre></td></tr></table></figure><p>CONTAINER ID        IMAGE                  COMMAND              …<br>5917eac21c36        ubuntu:15.10           “&#x2F;bin&#x2F;sh -c ‘while t…”    …</p><h3 id="输出详情介绍："><a href="#输出详情介绍：" class="headerlink" title="输出详情介绍："></a>输出详情介绍：</h3><p>CONTAINER ID: 容器 ID。</p><p>IMAGE: 使用的镜像。</p><p>COMMAND: 启动容器时运行的命令。</p><p>CREATED: 容器的创建时间。</p><p>STATUS: 容器状态。</p><h2 id="状态有7种："><a href="#状态有7种：" class="headerlink" title="状态有7种："></a>状态有7种：</h2><p>created（已创建）<br>restarting（重启中）<br>running 或 Up（运行中）<br>removing（迁移中）<br>paused（暂停）<br>exited（停止）<br>dead（死亡）<br>PORTS: 容器的端口信息和使用的连接类型（tcp\udp）。</p><p>NAMES: 自动分配的容器名称。</p><p>在宿主主机内使用 docker logs 命令，查看容器内的标准输出：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker logs 2b1b7a428627</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker logs amazing_cori</span><br></pre></td></tr></table></figure><p>停止容器</p><h3 id="我们使用-docker-stop-命令来停止容器"><a href="#我们使用-docker-stop-命令来停止容器" class="headerlink" title="我们使用 docker stop 命令来停止容器:"></a>我们使用 docker stop 命令来停止容器:</h3><p>通过 docker ps 查看，容器已经停止工作:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker ps</span><br></pre></td></tr></table></figure><p>可以看到容器已经不在了。</p><p>也可以用下面的命令来停止:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@root:~$ docker stop amazing_cori</span><br></pre></td></tr></table></figure><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Docker-Hello-World&quot;&gt;&lt;a href=&quot;#Docker-Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Docker Hello World&quot;&gt;&lt;/a&gt;Docker Hello World&lt;/h2&gt;&lt;p&gt;Docker</summary>
+      
+    
+    
+    
+    <category term="linux" scheme="https://www.dmark.us.kg/categories/linux/"/>
+    
+    
+    <category term="docker" scheme="https://www.dmark.us.kg/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker 安装 MySQL</title>
+    <link href="https://www.dmark.us.kg/html/docker-to-mysql/"/>
+    <id>https://www.dmark.us.kg/html/docker-to-mysql/</id>
+    <published>2020-09-29T18:33:44.000Z</published>
+    <updated>2024-09-30T06:39:39.085Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Docker-安装-MySQL"><a href="#Docker-安装-MySQL" class="headerlink" title="Docker 安装 MySQL"></a>Docker 安装 MySQL</h2><p>MySQL 是世界上最受欢迎的开源数据库。凭借其可靠性、易用性和性能，MySQL 已成为 Web 应用程序的数据库优先选择。</p><h3 id="1、查看可用的-MySQL-版本"><a href="#1、查看可用的-MySQL-版本" class="headerlink" title="1、查看可用的 MySQL 版本"></a>1、查看可用的 MySQL 版本</h3><p>访问 MySQL 镜像库地址：<a href="https://hub.docker.com/_/mysql?tab=tags">https://hub.docker.com/_/mysql?tab=tags</a> 。</p><p>可以通过 Sort by 查看其他版本的 MySQL，默认是最新版本 mysql:latest 。</p><p>你也可以在下拉列表中找到其他你想要的版本：</p><h3 id="此外，我们还可以用-docker-search-mysql-命令来查看可用版本："><a href="#此外，我们还可以用-docker-search-mysql-命令来查看可用版本：" class="headerlink" title="此外，我们还可以用 docker search mysql 命令来查看可用版本："></a>此外，我们还可以用 docker search mysql 命令来查看可用版本：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker search mysql</span><br></pre></td></tr></table></figure><p>NAME                     DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED<br>mysql                    MySQL is a widely used, open-source relati…   2529      [OK]<br>mysql&#x2F;mysql-server       Optimized MySQL Server Docker images. Crea…   161                  [OK]<br>centurylink&#x2F;mysql        Image containing mysql. Optimized to be li…   45                   [OK]<br>sameersbn&#x2F;mysql                                                          36                   [OK]<br>google&#x2F;mysql             MySQL server for Google Compute Engine          16                   [OK]<br>appcontainers&#x2F;mysql      Centos&#x2F;Debian Based Customizable MySQL Con…   8                    [OK]<br>marvambass&#x2F;mysql         MySQL Server based on Ubuntu 14.04              6                    [OK]<br>drupaldocker&#x2F;mysql       MySQL for Drupal                                2                    [OK]<br>azukiapp&#x2F;mysql           Docker image to run MySQL by Azuki - http:…   2                    [OK]<br>…</p><h3 id="2、拉取-MySQL-镜像"><a href="#2、拉取-MySQL-镜像" class="headerlink" title="2、拉取 MySQL 镜像"></a>2、拉取 MySQL 镜像</h3><p>这里我们拉取官方的最新版本的镜像：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker pull mysql:latest</span><br></pre></td></tr></table></figure><h3 id="3、查看本地镜像"><a href="#3、查看本地镜像" class="headerlink" title="3、查看本地镜像"></a>3、查看本地镜像</h3><p>使用以下命令来查看是否已安装了 mysql：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker images</span><br></pre></td></tr></table></figure><p>在上图中可以看到我们已经安装了最新版本（latest）的 mysql 镜像。</p><h3 id="4、运行容器"><a href="#4、运行容器" class="headerlink" title="4、运行容器"></a>4、运行容器</h3><p>安装完成后，我们可以使用以下命令来运行 mysql 容器：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql</span><br></pre></td></tr></table></figure><p>参数说明：</p><p>-p 3306:3306 ：映射容器服务的 3306 端口到宿主机的 3306 端口，外部主机可以直接通过 宿主机ip:3306 访问到 MySQL 的服务。<br>MYSQL_ROOT_PASSWORD&#x3D;123456：设置 MySQL 服务 root 用户的密码。</p><h3 id="5、安装成功"><a href="#5、安装成功" class="headerlink" title="5、安装成功"></a>5、安装成功</h3><p>通过 docker ps 命令查看是否安装成功：</p><h2 id="本机可以通过-root-和密码-123456-访问-MySQL-服务。"><a href="#本机可以通过-root-和密码-123456-访问-MySQL-服务。" class="headerlink" title="本机可以通过 root 和密码 123456 访问 MySQL 服务。"></a>本机可以通过 root 和密码 123456 访问 MySQL 服务。</h2><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Docker-安装-MySQL&quot;&gt;&lt;a href=&quot;#Docker-安装-MySQL&quot; class=&quot;headerlink&quot; title=&quot;Docker 安装 MySQL&quot;&gt;&lt;/a&gt;Docker 安装 MySQL&lt;/h2&gt;&lt;p&gt;MySQL 是世界上最受欢迎的开源数</summary>
+      
+    
+    
+    
+    <category term="linux" scheme="https://www.dmark.us.kg/categories/linux/"/>
+    
+    
+    <category term="docker" scheme="https://www.dmark.us.kg/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你好世界</title>
+    <link href="https://www.dmark.us.kg/html/hello-world/"/>
+    <id>https://www.dmark.us.kg/html/hello-world/</id>
+    <published>2011-09-30T01:16:03.000Z</published>
+    <updated>2024-09-30T06:39:22.568Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://www.dmark.us.kg/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="linux" scheme="https://www.dmark.us.kg/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我是来测试的。</title>
+    <link href="https://www.dmark.us.kg/html/test/"/>
+    <id>https://www.dmark.us.kg/html/test/</id>
+    <published>2011-09-28T16:12:45.000Z</published>
+    <updated>2024-09-30T06:38:49.991Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎来到我的世界。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;欢迎来到我的世界。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://www.dmark.us.kg/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="linux" scheme="https://www.dmark.us.kg/tags/linux/"/>
+    
+  </entry>
+  
+</feed>
