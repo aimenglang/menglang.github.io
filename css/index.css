@@ -258,18 +258,11 @@ template {
   line-height: 16px;
   height: 16px;
 }
-.fontawesomeIcon,
+.anzhiyufont,
 hr:before,
 #article-container a.headerlink::before,
 #post .post-outdate-notice:before,
 .note:not(.no-icon)::before {
-  display: inline-block;
-  font-weight: 600;
-  font-family: 'Font Awesome 6 Free';
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.anzhiyufont {
   font-family: "anzhiyufont";
   font-size: 16px;
   font-style: normal;
@@ -10905,12 +10898,6 @@ h1.page-title + .tag-cloud-list {
   -ms-transition: 0.6s;
   transition: 0.6s;
   overflow: hidden;
-  -webkit-animation: header 5s linear forwards;
-  -moz-animation: header 5s linear forwards;
-  -o-animation: header 5s linear forwards;
-  -ms-animation: header 5s linear forwards;
-  animation: header 5s linear forwards;
-  animation-timeline: view();
   background-color: transparent;
 }
 #page-header.post-bg #nav {
@@ -14378,13 +14365,6 @@ blockquote {
   -ms-transform: translateY(0px);
   transform: translateY(0px);
 }
-#post .post-copyright__author_box .post-copyright__author_img:hover img.post-copyright__author_img_front {
-  -webkit-transform: translateY(3px);
-  -moz-transform: translateY(3px);
-  -o-transform: translateY(3px);
-  -ms-transform: translateY(3px);
-  transform: translateY(3px);
-}
 #post .post-copyright__author_box .post-copyright__author_img img.post-copyright__author_img_front {
   z-index: 20;
   -webkit-transition: 0.3s;
@@ -14516,7 +14496,7 @@ blockquote {
   border-left: 5px solid #ff8080;
 }
 #post .post-outdate-notice:before {
-  content: '\f071';
+  content: '\e66f';
   position: absolute;
   top: 50%;
   left: 0.9em;
