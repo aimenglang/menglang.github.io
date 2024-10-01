@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>测试博文了</title>
-      <link href="//html/2/"/>
-      <url>//html/2/</url>
+      <title>测试图片使用效果</title>
+      <link href="//html/pict/"/>
+      <url>//html/pict/</url>
       
-        <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style><p>哈哈哈啊哈哈</p>]]></content>
+        <content type="html"><![CDATA[<p>1<br><img src="https://cdn.jsdelivr.net/gh/aimenglang/mypicgogo@main/pics/1.png" alt="图片1"><br>2<br><img src="https://pic.langman.us.kg/2024/10/47922863682d6a0219c7096f88cc2322.png" alt="图片2"></p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
       
       
       
@@ -43,11 +43,11 @@
     
     
     <entry>
-      <title>公告</title>
-      <link href="//html/zdgg/"/>
-      <url>//html/zdgg/</url>
+      <title>这里是测试公告效果使用</title>
+      <link href="//html/testgo/"/>
+      <url>//html/testgo/</url>
       
-        <content type="html"><![CDATA[<p>欢迎大家来到我的世界。。。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+        <content type="html"><![CDATA[<p>欢迎大家来到我的世界。。。</p><p>还没想好怎么测试。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
       
       
       
@@ -56,11 +56,11 @@
     
     
     <entry>
-      <title>这是一篇新的博文</title>
-      <link href="//html/3/"/>
-      <url>//html/3/</url>
+      <title>这里是测试分享视频使用</title>
+      <link href="//html/video/"/>
+      <url>//html/video/</url>
       
-        <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div>我来看看新闻了。。<style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}<p>.video-container iframe {<br>    position: absolute;<br>    top: 0;<br>    left: 0;<br>    width: 100%;<br>    height: 100%;<br>}<br></style></p>]]></content>
+        <content type="html"><![CDATA[<div class="video-container">[123](https://youtube.com/shorts/zUsIrI-dcss?si=nnm7non0U3xvKckG)</div><div class="video-container">【环保公益短片《一次》| 让环保成为我们与这颗蓝色星球共存的桥梁 让美好成为现实 我们只需要一次就够了】 https://www.bilibili.com/video/BV11U4y1p7D2/?share_source=copy_web</div>我来看看新闻了。。<style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}<p>.video-container iframe {<br>    position: absolute;<br>    top: 0;<br>    left: 0;<br>    width: 100%;<br>    height: 100%;<br>}<br></style></p>]]></content>
       
       
       

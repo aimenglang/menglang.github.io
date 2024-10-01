@@ -6,7 +6,7 @@
   <link href="https://www.dmark.us.kg/atom.xml" rel="self"/>
   
   <link href="https://www.dmark.us.kg/"/>
-  <updated>2024-09-29T00:12:57.705Z</updated>
+  <updated>2024-10-01T07:44:43.197Z</updated>
   <id>https://www.dmark.us.kg/</id>
   
   <author>
@@ -17,26 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试博文了</title>
-    <link href="https://www.dmark.us.kg/html/2/"/>
-    <id>https://www.dmark.us.kg/html/2/</id>
+    <title>测试图片使用效果</title>
+    <link href="https://www.dmark.us.kg/html/pict/"/>
+    <id>https://www.dmark.us.kg/html/pict/</id>
     <published>2024-09-29T00:11:54.000Z</published>
-    <updated>2024-09-29T00:12:57.705Z</updated>
+    <updated>2024-10-01T07:44:43.197Z</updated>
     
-    <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style><p>哈哈哈啊哈哈</p>]]></content>
+    <content type="html"><![CDATA[<p>1<br><img src="https://cdn.jsdelivr.net/gh/aimenglang/mypicgogo@main/pics/1.png" alt="图片1"><br>2<br><img src="https://pic.langman.us.kg/2024/10/47922863682d6a0219c7096f88cc2322.png" alt="图片2"></p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
     
     
       
       
-    <summary type="html">&lt;div class=&quot;video-container&quot;&gt;
-[up主专用，视频内嵌代码贴在这]
-&lt;/div&gt;
-
-&lt;style&gt;
-.video-container {
-    position: relative;
-    width: 100%;
-    padding-top:</summary>
+    <summary type="html">&lt;p&gt;1&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/aimenglang/mypicgogo@main/pics/1.png&quot; alt=&quot;图片1&quot;&gt;&lt;br&gt;2&lt;br&gt;&lt;img src=&quot;https://pic.langman.us.kg/2</summary>
       
     
     
@@ -101,23 +93,24 @@
   </entry>
   
   <entry>
-    <title>公告</title>
-    <link href="https://www.dmark.us.kg/html/zdgg/"/>
-    <id>https://www.dmark.us.kg/html/zdgg/</id>
+    <title>这里是测试公告效果使用</title>
+    <link href="https://www.dmark.us.kg/html/testgo/"/>
+    <id>https://www.dmark.us.kg/html/testgo/</id>
     <published>2024-09-28T23:50:44.000Z</published>
-    <updated>2024-09-30T02:22:58.795Z</updated>
+    <updated>2024-10-01T03:32:04.271Z</updated>
     
-    <content type="html"><![CDATA[<p>欢迎大家来到我的世界。。。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    <content type="html"><![CDATA[<p>欢迎大家来到我的世界。。。</p><p>还没想好怎么测试。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;欢迎大家来到我的世界。。。&lt;/p&gt;
+&lt;p&gt;还没想好怎么测试。&lt;/p&gt;
 &lt;style&gt;
 .video-container {
     position: relative;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 aspect ratio (heig</summary>
+    padding-top: 56.25%; /* 16:9 a</summary>
       
     
     
@@ -126,26 +119,22 @@
   </entry>
   
   <entry>
-    <title>这是一篇新的博文</title>
-    <link href="https://www.dmark.us.kg/html/3/"/>
-    <id>https://www.dmark.us.kg/html/3/</id>
+    <title>这里是测试分享视频使用</title>
+    <link href="https://www.dmark.us.kg/html/video/"/>
+    <id>https://www.dmark.us.kg/html/video/</id>
     <published>2024-09-28T23:45:05.000Z</published>
-    <updated>2024-09-30T03:37:28.720Z</updated>
+    <updated>2024-10-01T03:39:08.748Z</updated>
     
-    <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div>我来看看新闻了。。<style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}<p>.video-container iframe {<br>    position: absolute;<br>    top: 0;<br>    left: 0;<br>    width: 100%;<br>    height: 100%;<br>}<br></style></p>]]></content>
+    <content type="html"><![CDATA[<div class="video-container">[123](https://youtube.com/shorts/zUsIrI-dcss?si=nnm7non0U3xvKckG)</div><div class="video-container">【环保公益短片《一次》| 让环保成为我们与这颗蓝色星球共存的桥梁 让美好成为现实 我们只需要一次就够了】 https://www.bilibili.com/video/BV11U4y1p7D2/?share_source=copy_web</div>我来看看新闻了。。<style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}<p>.video-container iframe {<br>    position: absolute;<br>    top: 0;<br>    left: 0;<br>    width: 100%;<br>    height: 100%;<br>}<br></style></p>]]></content>
     
     
       
       
     <summary type="html">&lt;div class=&quot;video-container&quot;&gt;
-[up主专用，视频内嵌代码贴在这]
+[123](https://youtube.com/shorts/zUsIrI-dcss?si=nnm7non0U3xvKckG)
 &lt;/div&gt;
-我来看看新闻了。。
-&lt;style&gt;
-.video-container {
-    position: relative;
-    width: 100%;
-    pad</summary>
+&lt;div class=&quot;video-container&quot;&gt;
+【环保公益短片</summary>
       
     
     
