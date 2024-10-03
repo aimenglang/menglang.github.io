@@ -6,7 +6,7 @@
   <link href="https://www.dmark.us.kg/atom.xml" rel="self"/>
   
   <link href="https://www.dmark.us.kg/"/>
-  <updated>2024-10-02T02:42:24.480Z</updated>
+  <updated>2024-10-03T08:08:23.177Z</updated>
   <id>https://www.dmark.us.kg/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iKuai + OpenWrt旁路由，端口映射不生效的解决办法</title>
+    <link href="https://www.dmark.us.kg/html/io/"/>
+    <id>https://www.dmark.us.kg/html/io/</id>
+    <published>2024-10-03T08:01:49.000Z</published>
+    <updated>2024-10-03T08:08:23.177Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在网络环境使用配置了“iKuai + OpenWrt旁路由”模式的网络，使用起来感觉不错。</p><p>但是发现一个端口转发没有生效，经过逐一排查，最终发现是由于旁路由的问题引起的。<br><img src="https://pic.langman.us.kg/img/a1003/8aee8cc235d2bfdd80109f8e0da35182e30e44ca.jpg@!web-article-pic.avif"></p><h2 id="建议排查项"><a href="#建议排查项" class="headerlink" title="建议排查项"></a>建议排查项</h2><p>内网主机防火墙设置（可尝试先关闭防火墙）</p><p>路由器防火墙设置</p><p>尝试更换公网IP端口</p><p>尝试暂时取消旁路由</p><p>通过排除法逐一排查，最终确定问题是由于旁路由模式引起的。尝试不使用旁路由时，iKuai的端口映射是有效的。</p><p>那么在保留旁路由的情况下，如何让iKuai的端口映射生效呢？请参考下面的解决办法。</p><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>如果没有旁路由的情况下，模式是这样的：</p><p>公网IP（8.8.8.8:2222） -&gt; iKuai路由器（192.168.1.1） -&gt; 内网主机（192.168.1.5:2222）</p><p>这样并没有问题，但是如果加了旁路由后，发现公网IP（8.8.8.8:2222）无法访问，这时我们需要先将流量转发到旁路由，再由旁路由转发至内网目标主机，<br>模式是这样的：</p><p>公网IP（8.8.8.8:2222） -&gt; iKuai路由器（192.168.1.1） -&gt; 旁路由（192.168.1.2:2222） -&gt; 内网主机（192.168.1.5:2222）</p><p>通过这种网络模式，可以正常将公网流量转发至目标主机，遂问题解决。具体操作步骤如下：</p><p>一、在“iKuai路由器后台 - 网络设置 - 端口映射”添加一条转发至旁路由的规则，如下图。<br><img src="https://pic.langman.us.kg/img/a1003/e3d4d59cf2e8a9a38cd9a703837f7e84de70f8f3.png@1256w_646h_!web-article-pic.avif"></p><p>二、登录旁路由（OpenWrt）后台，在“网络 - 防火墙 - 端口映射”将来自LAN端口（上面步骤的内网端口）的流量转发至内网的目标机器，如下图。<br><img src="https://pic.langman.us.kg/img/a1003/2f2da07b1a334c8922d5c87f217e158cce0484c0.png@1256w_676h_!web-article-pic.avif"></p><p>最后保存并应用即可。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果您内网机器的网关指向的是主路由（192.168.1.1），则不需要在旁路由进行映射。</p><p>但如果您内网机器网关指向的是旁路由（192.168.1.2），需要在主路由添加端口映射外，还需要在旁路由额外添加端口映射。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近在网络环境使用配置了“iKuai + OpenWrt旁路由”模式的网络，使用起来感觉不错。&lt;/p&gt;
+&lt;p&gt;但是发现一个端口转发没有生效，经过逐一排查，最终发现是由于旁路由的问题引起的。&lt;br&gt;&lt;img src=&quot;https://pic.langman.us.kg/img</summary>
+      
+    
+    
+    
+    <category term="知识" scheme="https://www.dmark.us.kg/categories/%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="ikuai" scheme="https://www.dmark.us.kg/tags/ikuai/"/>
+    
+    <category term="爱快" scheme="https://www.dmark.us.kg/tags/%E7%88%B1%E5%BF%AB/"/>
+    
+    <category term="openwrt" scheme="https://www.dmark.us.kg/tags/openwrt/"/>
+    
+    <category term="路由" scheme="https://www.dmark.us.kg/tags/%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="旁路由" scheme="https://www.dmark.us.kg/tags/%E6%97%81%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="端口" scheme="https://www.dmark.us.kg/tags/%E7%AB%AF%E5%8F%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux命令大全</title>
