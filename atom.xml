@@ -6,7 +6,7 @@
   <link href="https://www.dmark.us.kg/atom.xml" rel="self"/>
   
   <link href="https://www.dmark.us.kg/"/>
-  <updated>2024-10-05T12:33:44.313Z</updated>
+  <updated>2024-10-08T12:35:45.936Z</updated>
   <id>https://www.dmark.us.kg/</id>
   
   <author>
@@ -17,19 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>在Armbian系统上安装Docker的简明指南</title>
+    <link href="https://www.dmark.us.kg/html/armbian-docker/"/>
+    <id>https://www.dmark.us.kg/html/armbian-docker/</id>
+    <published>2024-10-06T11:25:51.000Z</published>
+    <updated>2024-10-08T12:35:45.936Z</updated>
+    
+    <content type="html"><![CDATA[<p>在Armbian系统上安装Docker是一个相对简单的过程，只要按照正确的步骤进行操作即可完成。下面，我们将通过简明扼要的方式，为您提供一份详细的安装指南。</p><p>首先，确保您已经成功安装了Armbian系统。如果您还没有安装，可以参考Armbian的官方文档或其他相关教程来完成安装。一旦您已经安装了Armbian系统，就可以开始安装Docker了。</p><p>第一步：更新软件包列表</p><p>在终端中执行以下命令，以更新软件包列表：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br></pre></td></tr></table></figure><p>这将从官方软件源中获取最新的软件包列表。</p><p>第二步：升级已安装的软件包</p><p>接下来，执行以下命令来升级已安装的软件包：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt upgrade -y</span><br></pre></td></tr></table></figure><p>使用-y参数可以自动确认所有升级操作，无需手动输入确认。</p><p>第三步：移除不需要的依赖包</p><p>为了保持系统的整洁和高效，我们可以移除不需要的依赖包。执行以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt autoremove -y</span><br></pre></td></tr></table></figure><p>这将自动删除不再需要的依赖包，释放系统资源。</p><p>第四步：安装Docker</p><p>现在，我们可以开始安装Docker了。在终端中执行以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install docker.io -y</span><br></pre></td></tr></table></figure><p>这将下载并安装Docker。安装过程中，可能会提示您确认一些依赖包的安装，使用-y参数可以自动确认。</p><p>第五步：启用并运行Docker服务</p><p>安装完成后，我们需要启用并运行Docker服务。执行以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl <span class="built_in">enable</span> --now docker</span><br></pre></td></tr></table></figure><p>这将启用Docker服务，并立即启动它。</p><p>至此，您已经成功在Armbian系统上安装了Docker。您可以通过运行docker version命令来验证Docker是否成功安装并运行。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version</span><br></pre></td></tr></table></figure><p>如果一切正常，您将看到Docker的版本信息。</p><p>现在，您可以在Armbian系统上使用Docker来运行和管理容器了。Docker提供了丰富的功能和灵活性，使您能够轻松地部署、运行和管理应用程序。您可以参考Docker的官方文档或其他相关教程，深入了解Docker的使用方法和最佳实践。</p><p>希望本文能够帮助您在Armbian系统上成功安装Docker，并为您的应用程序提供强大的容器化支持。如有任何疑问或需要进一步帮助，请随时联系我们。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在Armbian系统上安装Docker是一个相对简单的过程，只要按照正确的步骤进行操作即可完成。下面，我们将通过简明扼要的方式，为您提供一份详细的安装指南。&lt;/p&gt;
+&lt;p&gt;首先，确保您已经成功安装了Armbian系统。如果您还没有安装，可以参考Armbian的官方文档或其他</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>iKuai + OpenWrt旁路由，端口映射不生效的解决办法</title>
     <link href="https://www.dmark.us.kg/html/io/"/>
     <id>https://www.dmark.us.kg/html/io/</id>
     <published>2024-10-03T08:01:49.000Z</published>
-    <updated>2024-10-05T12:33:44.313Z</updated>
+    <updated>2024-10-08T12:34:26.749Z</updated>
     
-    <content type="html"><![CDATA[<p>最近在网络环境使用配置了“iKuai + OpenWrt旁路由”模式的网络，使用起来感觉不错。</p><p>但是发现一个端口转发没有生效，经过逐一排查，最终发现是由于旁路由的问题引起的。<br>  <img src="/images/openwrtt.avif"> </p><h2 id="建议排查项"><a href="#建议排查项" class="headerlink" title="建议排查项"></a>建议排查项</h2><p>内网主机防火墙设置（可尝试先关闭防火墙）</p><p>路由器防火墙设置</p><p>尝试更换公网IP端口</p><p>尝试暂时取消旁路由</p><p>通过排除法逐一排查，最终确定问题是由于旁路由模式引起的。尝试不使用旁路由时，iKuai的端口映射是有效的。</p><p>那么在保留旁路由的情况下，如何让iKuai的端口映射生效呢？请参考下面的解决办法。</p><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>如果没有旁路由的情况下，模式是这样的：</p><p>公网IP（8.8.8.8:2222） -&gt; iKuai路由器（192.168.1.1） -&gt; 内网主机（192.168.1.5:2222）</p><p>这样并没有问题，但是如果加了旁路由后，发现公网IP（8.8.8.8:2222）无法访问，这时我们需要先将流量转发到旁路由，再由旁路由转发至内网目标主机，<br>模式是这样的：</p><p>公网IP（8.8.8.8:2222） -&gt; iKuai路由器（192.168.1.1） -&gt; 旁路由（192.168.1.2:2222） -&gt; 内网主机（192.168.1.5:2222）</p><p>通过这种网络模式，可以正常将公网流量转发至目标主机，遂问题解决。具体操作步骤如下：</p><p>一、在“iKuai路由器后台 - 网络设置 - 端口映射”添加一条转发至旁路由的规则，如下图。<br><img src="/images/ikuait.avif"></p><p>二、登录旁路由（OpenWrt）后台，在“网络 - 防火墙 - 端口映射”将来自LAN端口（上面步骤的内网端口）的流量转发至内网的目标机器，如下图。<br><img src="/images/openwrt.avif"></p><p>最后保存并应用即可。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果您内网机器的网关指向的是主路由（192.168.1.1），则不需要在旁路由进行映射。</p><p>但如果您内网机器网关指向的是旁路由（192.168.1.2），需要在主路由添加端口映射外，还需要在旁路由额外添加端口映射。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    <content type="html"><![CDATA[<p>最近在网络环境使用配置了“iKuai + OpenWrt旁路由”模式的网络，使用起来感觉不错。</p><p>但是发现一个端口转发没有生效，经过逐一排查，最终发现是由于旁路由的问题引起的。<br>  <img src="/images/openwrtt.png"> </p><h2 id="建议排查项"><a href="#建议排查项" class="headerlink" title="建议排查项"></a>建议排查项</h2><p>内网主机防火墙设置（可尝试先关闭防火墙）</p><p>路由器防火墙设置</p><p>尝试更换公网IP端口</p><p>尝试暂时取消旁路由</p><p>通过排除法逐一排查，最终确定问题是由于旁路由模式引起的。尝试不使用旁路由时，iKuai的端口映射是有效的。</p><p>那么在保留旁路由的情况下，如何让iKuai的端口映射生效呢？请参考下面的解决办法。</p><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>如果没有旁路由的情况下，模式是这样的：</p><p>公网IP（8.8.8.8:2222） -&gt; iKuai路由器（192.168.1.1） -&gt; 内网主机（192.168.1.5:2222）</p><p>这样并没有问题，但是如果加了旁路由后，发现公网IP（8.8.8.8:2222）无法访问，这时我们需要先将流量转发到旁路由，再由旁路由转发至内网目标主机，<br>模式是这样的：</p><p>公网IP（8.8.8.8:2222） -&gt; iKuai路由器（192.168.1.1） -&gt; 旁路由（192.168.1.2:2222） -&gt; 内网主机（192.168.1.5:2222）</p><p>通过这种网络模式，可以正常将公网流量转发至目标主机，遂问题解决。具体操作步骤如下：</p><p>一、在“iKuai路由器后台 - 网络设置 - 端口映射”添加一条转发至旁路由的规则，如下图。<br><img src="/images/ikuait.png"></p><p>二、登录旁路由（OpenWrt）后台，在“网络 - 防火墙 - 端口映射”将来自LAN端口（上面步骤的内网端口）的流量转发至内网的目标机器，如下图。<br><img src="/images/openwrttt.png"></p><p>最后保存并应用即可。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果您内网机器的网关指向的是主路由（192.168.1.1），则不需要在旁路由进行映射。</p><p>但如果您内网机器网关指向的是旁路由（192.168.1.2），需要在主路由添加端口映射外，还需要在旁路由额外添加端口映射。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;最近在网络环境使用配置了“iKuai + OpenWrt旁路由”模式的网络，使用起来感觉不错。&lt;/p&gt;
-&lt;p&gt;但是发现一个端口转发没有生效，经过逐一排查，最终发现是由于旁路由的问题引起的。&lt;br&gt;  &lt;img src=&quot;/images/openwrtt.avif&quot;&gt; &lt;/p</summary>
+&lt;p&gt;但是发现一个端口转发没有生效，经过逐一排查，最终发现是由于旁路由的问题引起的。&lt;br&gt;  &lt;img src=&quot;/images/openwrtt.png&quot;&gt; &lt;/p&gt;</summary>
       
     
     
@@ -163,7 +184,7 @@
     <link href="https://www.dmark.us.kg/html/browser/"/>
     <id>https://www.dmark.us.kg/html/browser/</id>
     <published>2024-09-28T23:50:56.000Z</published>
-    <updated>2024-10-05T14:09:06.431Z</updated>
+    <updated>2024-10-05T14:09:06.000Z</updated>
     
     <content type="html"><![CDATA[<p>浏览器<br><img src="/images/iell.png"><br>Internet Explorer（IE浏览器）<br>Internet Explorer（IE浏览器）是微软公司（Microsoft）发行的一款 web 浏览器。 它发布于 1995 年，是当今最流行的浏览器之一。</p><p>Microsoft Edge 浏览器<br>微软新一代浏览器。 微软新的 IE 浏览器项目 Project Spartan 在 Build 2015 上正式更名为 Microsoft Edge。最新的 Edge 采用了 Chromium 内核，当然也兼容以前 IE 的功能。</p><p>ChromeGoogle Chrome（谷歌浏览器）<br>Google Chrome（谷歌浏览器）是由 Google 公司开发一款开源免费的 web 浏览器。它发布于 2008 年，是当今最常用的浏览器。</p><p>FirefoxFirefox（火狐浏览器）<br>Firefox（火狐浏览器）是来自 Mozilla 的一款 web 浏览器。它发布于 2004 年，也是当今最流行的浏览器之一。</p><p>SafariApple Safari（苹果 Safari 浏览器）<br>Safari 是由苹果公司开发的一款 web 浏览器，它是 Mac 系统的默认浏览器。Safari 以其时尚的设计而著称。</p><p>OperaOpera 浏览器<br>Opera 是挪威人发明的一款 web 浏览器。它以下列特性而闻名于世：快速小巧、符合工业标准、适用于多种操作系统。对于一系列小型设备诸如手机和掌上电脑来说，Opera 无疑是首选的浏览器。</p><p>MozillaMozilla 项目<br>Mozilla 项目是从 Netscape 的基础上发展起来的。今天，基于 Mozilla 的浏览器已经演变为互联网上最大的浏览器家族。</p><p>NetscapeNetscape 浏览器<br>Netscape 是首个商业化的 web 浏览器。它发布于 1994 年。在 IE 的竞争下，Netscape 逐渐丧失了它的市场份额。Netscape 的官方开发结束于 2008 年 2 月。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
     
@@ -203,7 +224,7 @@
     <link href="https://www.dmark.us.kg/html/testgo/"/>
     <id>https://www.dmark.us.kg/html/testgo/</id>
     <published>2024-09-28T23:50:44.000Z</published>
-    <updated>2024-10-06T05:15:58.708Z</updated>
+    <updated>2024-10-06T05:15:58.000Z</updated>
     
     <content type="html"><![CDATA[<p>欢迎大家来到我的世界。。。</p><p>还没想好怎么测试。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
     
