@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>welcome</title>
-      <link href="//html/welcome-1/"/>
-      <url>//html/welcome-1/</url>
+      <title>Xinwen</title>
+      <link href="//html/xinwen/"/>
+      <url>//html/xinwen/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>哈哈，</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div> --><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
       
       
       
@@ -17,7 +17,7 @@
     
     
     <entry>
-      <title>welcome</title>
+      <title>Welcome</title>
       <link href="//html/welcome/"/>
       <url>//html/welcome/</url>
       
@@ -113,7 +113,7 @@
     
     
     <entry>
-      <title>linux介绍</title>
+      <title>Linux介绍</title>
       <link href="//html/linux/"/>
       <url>//html/linux/</url>
       
@@ -157,14 +157,6 @@
       
         <content type="html"><![CDATA[<h2 id="互联网是如何工作的呢？如何制作属于您自己的网站？"><a href="#互联网是如何工作的呢？如何制作属于您自己的网站？" class="headerlink" title="互联网是如何工作的呢？如何制作属于您自己的网站？"></a>互联网是如何工作的呢？如何制作属于您自己的网站？</h2><h2 id="什么是网站主机"><a href="#什么是网站主机" class="headerlink" title="什么是网站主机?"></a>什么是网站主机?</h2><p>什么是 Internet 服务提供商（ISP）？什么是 DNS？</p><h2 id="什么是万维网（-World-Wide-Web）？"><a href="#什么是万维网（-World-Wide-Web）？" class="headerlink" title="什么是万维网（ World Wide Web）？"></a>什么是万维网（ World Wide Web）？</h2><p>Web是一个遍布全球的计算机网络。<br>网络中的所有计算机均可彼此相互通信。<br>所有的计算机都使用被称为 HTTP 的通信标准。</p><h2 id="WWW-如何工作？"><a href="#WWW-如何工作？" class="headerlink" title="WWW 如何工作？"></a>WWW 如何工作？</h2><p>Web 信息存储于被称为网页的文档中。<br>网页是存储于名为 web 服务器的计算机中的文件。<br>读取网页的计算机可称为 web 客户机。<br>web 客户机通过名为 web 浏览器的程序来查看页面。<br>主流的浏览器有 Google Chrome、Microsoft Edge 和 Firefox。<br><img src="/images/1001214028.png"></p><h2 id="浏览器如何读取网页？"><a href="#浏览器如何读取网页？" class="headerlink" title="浏览器如何读取网页？"></a>浏览器如何读取网页？</h2><p>浏览器可以通过一个请求 (request) 从 web 服务器读取页面。<br>请求是包含页面地址的标准 HTTP 请求。<br>网页地址实例: <a href="https://www.apple.com/">https://www.apple.com/</a></p><h2 id="浏览器如何显示网页？"><a href="#浏览器如何显示网页？" class="headerlink" title="浏览器如何显示网页？"></a>浏览器如何显示网页？</h2><p>所有的网页都含有供显示的指令。<br>浏览器通过读取这些指令来显示页面。<br>最常用的显示指令是 HTML 标签。<br>HTML 标签格式：<p>这是一个段落。</p>.<br>如果你想学习更多关于HTML的知识请访问我们的 HTML 教程.</p><h2 id="什么是-Web-服务器？"><a href="#什么是-Web-服务器？" class="headerlink" title="什么是 Web 服务器？"></a>什么是 Web 服务器？</h2><p>您的所有网页的集合被称为网站。<br>要想让别人看到您的页面，就必须对网站进行发布。<br>您必须把网站拷贝到一台 web 服务器，才能完成对网站的发布。<br>如果您的 PC 连入网络的话，您也可以把它当作一台 web 服务器。<br>大多数的情况是使用由 ISP 提供的 web 主机。</p><h2 id="什么是-ISP-Internet-Service-Provider"><a href="#什么是-ISP-Internet-Service-Provider" class="headerlink" title="什么是 ISP( Internet Service Provider )?"></a>什么是 ISP( Internet Service Provider )?</h2><p>ISP 是 Internet Service Provider（互联网服务提供商）的缩写，它指的是提供互联网连接服务的公司或组织。</p><p>中国三大 ISP：中国电信，中国移动，中国联通。</p><p>ISP 指的是 Internet 服务提供商。<br>ISP 可提供 Internet 服务。<br>最常见的 Internet 服务是网站主机。<br>网站主机服务可把您的网站存放到一个公共的服务器上。<br>网站主机服务通常包括了域名注册服务。<br>DNS<br>域名系统（英语：Domain Name System，缩写：DNS）是互联网的一项服务。它作为将域名和IP地址相互映射的一个分布式数据库，能够使人更方便地访问互联网。<br><img src="/source/images/wlxx.png"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果您希望其它人看到您的网站，就必须把网站拷贝到一个公共的服务器。即使您可以使用自己的 PC 来做 web 服务器，最常见的做法还是通过 ISP 来存放网站。</p><p>包含在 web 主机解决方案中的还有域名注册和标准的电子邮件服务。</p><p>您可以在接下来的章节阅读到更多有关域名注册、电子邮件和其他服务的内容。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
       
-      
-      <categories>
-          
-          <category> 知识 </category>
-          
-          <category> 信息 </category>
-          
-      </categories>
       
       
         <tags>
