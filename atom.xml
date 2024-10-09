@@ -6,7 +6,7 @@
   <link href="https://www.dmark.us.kg/atom.xml" rel="self"/>
   
   <link href="https://www.dmark.us.kg/"/>
-  <updated>2024-10-08T12:35:45.936Z</updated>
+  <updated>2024-10-09T06:48:59.257Z</updated>
   <id>https://www.dmark.us.kg/</id>
   
   <author>
@@ -17,11 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>welcome</title>
+    <link href="https://www.dmark.us.kg/html/welcome-1/"/>
+    <id>https://www.dmark.us.kg/html/welcome-1/</id>
+    <published>2024-10-09T06:48:59.000Z</published>
+    <updated>2024-10-09T06:48:59.257Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>welcome</title>
+    <link href="https://www.dmark.us.kg/html/welcome/"/>
+    <id>https://www.dmark.us.kg/html/welcome/</id>
+    <published>2024-10-09T06:48:11.000Z</published>
+    <updated>2024-10-09T06:48:11.082Z</updated>
+    
+    <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;video-container&quot;&gt;
+[up主专用，视频内嵌代码贴在这]
+&lt;/div&gt;
+
+&lt;style&gt;
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top:</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>在Armbian系统上安装Docker的简明指南</title>
     <link href="https://www.dmark.us.kg/html/armbian-docker/"/>
     <id>https://www.dmark.us.kg/html/armbian-docker/</id>
     <published>2024-10-06T11:25:51.000Z</published>
-    <updated>2024-10-08T12:35:45.936Z</updated>
+    <updated>2024-10-09T06:38:48.425Z</updated>
     
     <content type="html"><![CDATA[<p>在Armbian系统上安装Docker是一个相对简单的过程，只要按照正确的步骤进行操作即可完成。下面，我们将通过简明扼要的方式，为您提供一份详细的安装指南。</p><p>首先，确保您已经成功安装了Armbian系统。如果您还没有安装，可以参考Armbian的官方文档或其他相关教程来完成安装。一旦您已经安装了Armbian系统，就可以开始安装Docker了。</p><p>第一步：更新软件包列表</p><p>在终端中执行以下命令，以更新软件包列表：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br></pre></td></tr></table></figure><p>这将从官方软件源中获取最新的软件包列表。</p><p>第二步：升级已安装的软件包</p><p>接下来，执行以下命令来升级已安装的软件包：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt upgrade -y</span><br></pre></td></tr></table></figure><p>使用-y参数可以自动确认所有升级操作，无需手动输入确认。</p><p>第三步：移除不需要的依赖包</p><p>为了保持系统的整洁和高效，我们可以移除不需要的依赖包。执行以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt autoremove -y</span><br></pre></td></tr></table></figure><p>这将自动删除不再需要的依赖包，释放系统资源。</p><p>第四步：安装Docker</p><p>现在，我们可以开始安装Docker了。在终端中执行以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install docker.io -y</span><br></pre></td></tr></table></figure><p>这将下载并安装Docker。安装过程中，可能会提示您确认一些依赖包的安装，使用-y参数可以自动确认。</p><p>第五步：启用并运行Docker服务</p><p>安装完成后，我们需要启用并运行Docker服务。执行以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl <span class="built_in">enable</span> --now docker</span><br></pre></td></tr></table></figure><p>这将启用Docker服务，并立即启动它。</p><p>至此，您已经成功在Armbian系统上安装了Docker。您可以通过运行docker version命令来验证Docker是否成功安装并运行。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker version</span><br></pre></td></tr></table></figure><p>如果一切正常，您将看到Docker的版本信息。</p><p>现在，您可以在Armbian系统上使用Docker来运行和管理容器了。Docker提供了丰富的功能和灵活性，使您能够轻松地部署、运行和管理应用程序。您可以参考Docker的官方文档或其他相关教程，深入了解Docker的使用方法和最佳实践。</p><p>希望本文能够帮助您在Armbian系统上成功安装Docker，并为您的应用程序提供强大的容器化支持。如有任何疑问或需要进一步帮助，请随时联系我们。</p><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
     
@@ -33,6 +74,10 @@
       
     
     
+    
+    <category term="armbian" scheme="https://www.dmark.us.kg/categories/armbian/"/>
+    
+    <category term="docker" scheme="https://www.dmark.us.kg/categories/armbian/docker/"/>
     
     
   </entry>
